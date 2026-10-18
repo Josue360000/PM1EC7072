@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/et_asignatura"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Asignatura" />
+
+    <EditText
+        android:id="@+id/et_tema"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tema" />
+
+    <EditText
+        android:id="@+id/et_fecha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Fecha (AAAA-MM-DD)"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/et_descripcion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Descripcion"
+        android:minLines="3" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="16dp">
+
+        <Button
+            android:id="@+id/btn_grabar"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Grabar Audio" />
+
+        <Button
+            android:id="@+id/btn_guardar"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Guardar Apunte" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_ir_dictado_desde_registro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dictar Descripcion"
+        android:layout_marginTop="8dp" />
+
+    <Button
+        android:id="@+id/btn_ver_lista"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ver Lista de Apuntes"
+        android:layout_marginTop="8dp" />
+
+</LinearLayout>

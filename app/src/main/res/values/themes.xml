@@ -1,0 +1,9 @@
+<resources>
+    <style name="Theme.PM1EC7072" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/color_primary</item>
+        <item name="colorPrimaryVariant">@color/color_primary_dark</item>
+        <item name="colorAccent">@color/color_accent</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+        <item name="android:windowBackground">@color/color_background</item>
+    </style>
+</resources>
