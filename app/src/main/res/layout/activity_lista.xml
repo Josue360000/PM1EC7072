@@ -31,8 +31,8 @@
         android:layout_marginTop="16dp" />
 
     <Button
-        android:id="@+id/btn_ir_dictado"
+        android:id="@+id/btn_lista_ir_registro"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Ir a Dictado" />
+        android:text="Regresar a Registro" />
 </LinearLayout>

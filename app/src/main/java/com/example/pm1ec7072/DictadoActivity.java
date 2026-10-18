@@ -39,6 +39,7 @@ public class DictadoActivity extends AppCompatActivity {
             }
         });
 
+
         btn_guardar_dictado.setOnClickListener(v -> {
             String texto = tv_resultado_dictado.getText().toString();
             if (!texto.isEmpty() && !texto.equals("El texto aparecera aqui...")) {

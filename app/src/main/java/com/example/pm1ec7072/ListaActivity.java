@@ -1,5 +1,6 @@
 package com.example.pm1ec7072;
 
+import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.media.MediaPlayer;
 import android.os.Bundle;
@@ -20,11 +21,12 @@ public class ListaActivity extends AppCompatActivity {
     private ListView lv_apuntes;
     private Spinner spinner_asignaturas;
     private Button btn_filtrar;
-    private Button btn_ir_dictado;
+    private Button btn_lista_ir_registro;
     private apunte_dao apunte_dao_obj;
     private List<apunte_modelo> lista_actual;
     private MediaPlayer reproductor;
 
+    @SuppressLint("MissingInflatedId")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -33,7 +35,7 @@ public class ListaActivity extends AppCompatActivity {
         lv_apuntes = findViewById(R.id.lv_apuntes);
         spinner_asignaturas = findViewById(R.id.spinner_asignaturas);
         btn_filtrar = findViewById(R.id.btn_filtrar);
-        btn_ir_dictado = findViewById(R.id.btn_ir_dictado);
+        btn_lista_ir_registro = findViewById(R.id.btn_lista_ir_registro);
         apunte_dao_obj = new apunte_dao(this);
 
         cargar_lista_completa();
@@ -44,8 +46,8 @@ public class ListaActivity extends AppCompatActivity {
             actualizar_lista(lista_actual);
         });
 
-        btn_ir_dictado.setOnClickListener(v -> {
-            Intent intent = new Intent(ListaActivity.this, DictadoActivity.class);
+        btn_lista_ir_registro.setOnClickListener(v -> {
+            Intent intent = new Intent(ListaActivity.this, RegistroActivity.class);
             startActivity(intent);
         });
 
