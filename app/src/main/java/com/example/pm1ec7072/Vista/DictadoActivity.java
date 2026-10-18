@@ -1,4 +1,4 @@
-package com.example.pm1ec7072;
+package com.example.pm1ec7072.Vista;
 
 import android.Manifest;
 import android.content.Intent;
@@ -13,6 +13,9 @@ import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.ActivityCompat;
 import androidx.core.content.ContextCompat;
+
+import com.example.pm1ec7072.R;
+
 import java.util.ArrayList;
 import java.util.Locale;
 

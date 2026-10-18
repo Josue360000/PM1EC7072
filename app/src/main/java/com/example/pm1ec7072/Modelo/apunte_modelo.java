@@ -1,4 +1,4 @@
-package com.example.pm1ec7072;
+package com.example.pm1ec7072.Modelo;
 
 public class apunte_modelo {
     private int id_apunte;

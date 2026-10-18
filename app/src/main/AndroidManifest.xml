@@ -15,7 +15,7 @@
         android:theme="@style/Theme.PM1EC7072">
 
         <activity
-            android:name=".RegistroActivity"
+            android:name=".Vista.RegistroActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -24,11 +24,11 @@
         </activity>
 
         <activity
-            android:name=".ListaActivity"
+            android:name=".Vista.ListaActivity"
             android:exported="false" />
 
         <activity
-            android:name=".DictadoActivity"
+            android:name=".Vista.DictadoActivity"
             android:exported="false" />
 
     </application>

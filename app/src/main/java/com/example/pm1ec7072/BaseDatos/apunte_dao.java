@@ -1,10 +1,13 @@
-package com.example.pm1ec7072;
+package com.example.pm1ec7072.BaseDatos;
 
 import android.content.ContentValues;
 import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
+
+import com.example.pm1ec7072.Modelo.apunte_modelo;
+
 import java.util.ArrayList;
 import java.util.List;
 

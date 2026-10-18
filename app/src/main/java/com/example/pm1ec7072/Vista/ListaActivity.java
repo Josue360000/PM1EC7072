@@ -1,10 +1,9 @@
-package com.example.pm1ec7072;
+package com.example.pm1ec7072.Vista;
 
 import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.media.MediaPlayer;
 import android.os.Bundle;
-import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.ListView;
@@ -12,6 +11,11 @@ import android.widget.Spinner;
 import android.widget.Toast;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
+
+import com.example.pm1ec7072.R;
+import com.example.pm1ec7072.BaseDatos.apunte_dao;
+import com.example.pm1ec7072.Modelo.apunte_modelo;
+
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
